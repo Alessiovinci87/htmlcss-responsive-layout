@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(container.css);
 @import url(responsive.css);
+@import url(debug.css);
 
 /* 
 header
@@ -12,6 +13,7 @@ header
     justify-content: space-between;
     padding: 0 .625rem;
     align-items: center;
+    margin-bottom: 1.25rem;
 }
 
 ul, li > a {
@@ -32,6 +34,8 @@ main
     
 }
 
+
+
 .card {
     padding: .625rem;
     margin: .625rem;
@@ -39,7 +43,58 @@ main
     
 }
 
+.card-left, .card-right {
+    border: .0625rem solid red; 
+}
 
+/* 
+main-section-2 
+*/
+
+.main-section-2 {
+    background-color: #9792E4;
+    margin-top: 2.5rem;
+            
+}
+
+/* 
+main section 3 
+*/
+
+.main-sectio-3, ul {
+    display: block;
+    list-style: none;
+    color: black;
+    text-align: center;
+    margin-top: 1.25rem;
+    
+}
+
+.main-section-3-container {   
+    background-color: #9792e4;
+    margin: .625rem .625rem;
+
+}
+
+
+/* 
+main section 4
+*/
+.main-section-4-title {
+    text-align: center;
+    padding-top: 1.25rem;
+    
+}
+
+.main-section-4-container {
+    background-color: #9792E4;
+}
+
+.main-section-4-card {
+    background-color: white;
+    margin: .625rem;
+    border-radius: 1.875rem;
+}
 
 
 

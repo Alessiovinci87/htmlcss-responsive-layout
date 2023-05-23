@@ -1,0 +1,30 @@
+
+/* 
+main section 
+2 */
+
+.section-2-img, .section-2-img2 {
+    height: 12.5rem;
+    border: .0625rem solid red;
+    text-align: center;
+}
+
+/* 
+main section 3 
+*/
+
+
+.main-sectio-3 ul {
+    border: .0625rem solid red;
+}
+
+
+.main-section-3-container > div {
+    border: .0625rem solid red;
+    height: 6.25rem;
+}
+
+/* 
+main section 4 
+*/
+
