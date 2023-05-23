@@ -1,3 +1,51 @@
 @import url(reset.css);
+@import url(container.css);
+@import url(responsive.css);
+
+/* 
+header
+*/
+
+.header-main{
+    background-color:#0C83FB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .625rem;
+    align-items: center;
+}
+
+ul, li > a {
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: .625rem;
+}
+
+/* 
+main 
+*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.card {
+    padding: .625rem;
+    margin: .625rem;
+    background-color:#B5DDFD;
+    
+}
+
+
+
+
+
+
+
+
+
 
 

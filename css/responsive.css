@@ -1,0 +1,64 @@
+/* 
+mobile 
+*/
+
+@media screen and (min-width: 0px) {
+
+  /* header */  
+
+    .header-nav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        padding: .625rem;
+    }
+    
+  /* main */ 
+    
+    .cards {
+        display: flex;
+        flex-wrap: wrap;     
+    }
+    .card {
+        width: calc(100% - 1.25rem);
+    }
+}
+
+/* 
+tablet
+ */
+ 
+@media screen and (min-width: 768px) {
+
+ /* header */ 
+
+    .card {
+        width: calc((100% / 3) - 1.25rem);
+    }
+    .card:first-child {
+        width: calc(((100% / 3) * 2) - 1.25rem);  
+    }
+
+ /* main */   
+    
+
+}
+
+/* 
+desktop 
+*/
+
+@media screen and (min-width: 992px){
+
+    .hamburger{
+        display: none;
+    }
+   
+    .header-nav{
+        display: block;
+    }
+    /* main */
+   
+
+}
