@@ -4,145 +4,180 @@ mobile
 
 @media screen and (min-width: 0px) {
 
-  /* header */  
+    /* header */
 
-    .header-nav{
+    .header-nav {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
         padding: .625rem;
     }
-    
-  /* main */ 
-    
+
+    /* main */
+
     .cards {
         display: flex;
-        flex-wrap: wrap;     
+        flex-wrap: wrap;
     }
+
     .card {
         width: calc(100% - 1.25rem);
     }
 
-    .cards:first-child:first-child{
+    .cards:first-child:first-child {
         display: flex;
         justify-content: space-around;
     }
 
 
-    
+
     /* main section 2 */
 
-    
+
 }
 
 /* 
 tablet
  */
- 
-@media screen and (min-width: 768px) {
 
- /* header */ 
+    @media screen and (min-width: 768px) {
 
-    .card {
-        width: calc((100% / 3) - 1.25rem);
+        /* header */
+
+        .card {
+            width: calc((100% / 3) - 1.25rem);
+        }
+
+        .card:first-child {
+            width: calc(((100% / 3) * 2) - 1.25rem);
+        }
+
+        .cards:first-child {
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+        /* 
+        main section 3 
+        */
+
+        .main-section-3-container {
+            display: flex;
+        }
+
+        .main-section-3-card {
+            width: calc(30% - .625rem);
+        }
+
+        .main-section-3-text {
+            width: calc(70% - .625rem);
+        }
+
+        /* 
+        main section 4 
+        */
+
+
+        .main-section-4-card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .main-section-4-card {
+            flex-basis: calc(50% - 1.25rem);
+            margin: .625rem;
+
+        }
+        /* 
+        main section 5
+        */
+
+        .main-section-5 {
+            display: flex;           
+            padding: 2.5rem;
+        }
+
+        .main-section-5-text {
+
+            width: calc(60% / 2) - 2.5rem;
+        }
+
+
+        .main-section-5-img {
+            width: calc(60% / 2) - 2.5rem;
+            
+        }
+
+        /* main section 6 */
+
+        
     }
-    .card:first-child {
-        width: calc(((100% / 3) * 2) - 1.25rem);  
-    }
 
-    .cards:first-child{
-        display: flex;
-        justify-content: space-around;
-    }
-
-
- /* 
-main section 3 
-*/
-
-  .main-section-3-container {
-    display: flex;
- }    
-
- .main-section-3-card {
-    width: calc(30% - .625rem);
- }
-
- .main-section-3-text {
-    width: calc(70% - .625rem);
- }
-
-/* 
-main section 4 
-*/
-
-
-.main-section-4-container {
-   
-}
-
-
-}
+        
 
 
 /* 
 desktop 
 */
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
-    .hamburger{
+    .hamburger {
         display: none;
     }
-   
-    .header-nav{
+
+    .header-nav {
         display: block;
     }
 
     /* main */
 
-    .card:first-child:first-child{
+    .card:first-child:first-child {
         display: flex;
         justify-content: space-around;
     }
 
     /* main section 2 */
 
-    .section-2-img, .section-2-img2 {
-        border: .0625rem solid red; 
-        width: calc(100% / 2);  
-    }   
+    .section-2-img,
+    .section-2-img2 {
+        border: .0625rem solid red;
+        width: calc(100% / 2);
+    }
+
     .main-section-2 {
         background-color: #9792E4;
         margin-top: 2.5rem;
-        display: flex;    
+        display: flex;
     }
 
-     /* main section 3 */
+    /* main section 3 */
 
-     .main-section-3-container {
+    .main-section-3-container {
         display: flex;
-     }    
+    }
 
-     .main-section-3-card {
+    .main-section-3-card {
         width: calc(30% - .625rem);
-     }
+    }
 
-     .main-section-3-text {
+    .main-section-3-text {
         width: calc(70% - .625rem);
-     }
+    }
 
-     /* main section 4 */
+    /* main section 4 */
+    .main-section-4-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
 
-     .main-section-4-card-containee {
-        
-        
+    .main-section-4-card {
+        flex-basis: calc(33% - 1.25rem);
+        margin: .625rem;
 
-     }
-     .main-section-4-card {
-        
-    
-        
     }
 }

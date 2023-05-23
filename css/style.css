@@ -40,6 +40,8 @@ main
     padding: .625rem;
     margin: .625rem;
     background-color:#B5DDFD;
+    border-radius: 1.875rem;
+    
     
 }
 
@@ -88,6 +90,7 @@ main section 4
 
 .main-section-4-container {
     background-color: #9792E4;
+    padding-bottom: 3.125rem;
 }
 
 .main-section-4-card {
@@ -97,10 +100,34 @@ main section 4
 }
 
 
+/* 
+main section 5
+*/
 
+.main-section-5-text, .main-section-5-text2 {
+    text-align: left;
+    margin: .625rem;
+}
 
+.main-section-5-text h1 {
+    margin-bottom: .625rem;
 
+}
 
+.main-section-5-img {
+    margin: .625rem;
+}
 
+/* 
+main section 5
+*/
+
+.main-section-6 {
+    background-color: #9792E4;
+}
+
+.main-section-6-text {
+    
+}
 
 
