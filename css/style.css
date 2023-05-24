@@ -114,9 +114,60 @@ main-section-2
 
 .main-section-2 {
     background-color: #9792E4;
-    margin-top: 2.5rem;
+    margin-top: 2.5rem;  
             
 }
+
+.section-2-img > img{
+    width: 80%;
+    margin: 1.875rem;
+}
+
+.section-2-text {
+    padding: 1.25rem;
+    color: white;
+    text-align: left; 
+}
+
+.section-2-text2 {
+    padding: 0 1.25rem;
+    color:#333333; 
+    text-align: center;
+}
+
+.section-2-text > h2 {
+    margin: 1.25rem 0;  
+    color: white; 
+    text-align: left; 
+}
+
+.section-2-text2 > h2 {
+    margin: 1.25rem 0;  
+
+    color:#333333;
+    text-align: center;
+}
+
+.section-2-img2{
+    border-radius: 1.875rem;
+    background-color: white;
+    margin: .625rem;
+    
+
+}
+.section-2-img2 > img {
+    width: 80%;
+    margin: 1.875rem;
+}
+
+.arrow-down {
+    background-color: #9792E4;
+    padding:.625rem;
+    border-radius: 50%;
+    margin: 1.875rem 0;
+}
+
+
 
 /* 
 main section 3 
