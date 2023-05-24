@@ -33,7 +33,11 @@ mobile
 
 
 
-    /* main section 2 */
+    /* main section 3 */
+
+    .main-section-3-container > .main-section-3-text {
+        margin-left: 0;
+    }
 
 
 }
@@ -59,6 +63,9 @@ tablet
             justify-content: space-around;
         }
 
+        
+
+
 
         /* 
         main section 3 
@@ -74,6 +81,10 @@ tablet
 
         .main-section-3-text {
             width: calc(70% - .625rem);
+        }
+
+        .main-section-3-container > .main-section-3-text {
+            margin-left: 1.25rem;
         }
 
         /* 
@@ -133,11 +144,22 @@ desktop
         display: block;
     }
 
+    .header-button {
+        background-color: white;
+        color: black;
+        border-radius: 25%;
+    }
+
     /* main */
 
     .card:first-child:first-child {
         display: flex;
         justify-content: space-around;
+    }
+
+    .card-left {
+   
+        padding: 2.875rem 0 2.875rem 2.875rem;
     }
 
     /* main section 2 */

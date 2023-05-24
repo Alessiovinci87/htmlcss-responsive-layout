@@ -3,6 +3,10 @@
 @import url(responsive.css);
 @import url(debug.css);
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* 
 header
 */
@@ -16,12 +20,24 @@ header
     margin-bottom: 1.25rem;
 }
 
-ul, li > a {
+.header-nav ul, li > a {
     display: flex;
-    list-style: none;
+    text-decoration: none;
     color: white;
     padding: .625rem;
+    font-size: 10pt;
+
 }
+
+.header-logo {
+    padding: 10px 10px 0 10px;
+}
+
+.hamburger i {
+    color: white;
+}
+
+
 
 /* 
 main 
@@ -29,9 +45,7 @@ main
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap; 
 }
 
 
@@ -41,12 +55,57 @@ main
     margin: .625rem;
     background-color:#B5DDFD;
     border-radius: 1.875rem;
+    text-align: center;   
+}
+
+.card > i {
+    color: #0C83FB;
+    font-size: 6.25rem;
+    padding: 1.25rem;
+}
+
+
+.card > h3 {
+    color: #0C83FB;
+    padding-bottom: 1.25rem;
+}
+
+.card > p {
+    color:#333333 ;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    font-size: 10pt;
+}
+
+
+.card-left {
+    text-align: left;
+    font-size: 10pt;
+}
+
+.card-left h3 {
+    color: #0C83FB;
+    margin: 1.625rem 0;
+}
+
+.card-left p {
+    margin: 1.5625rem 0;
+}
+
+.button-blue {
+    
+    background-color:#0C83FB ;
+    color: white;
+    border-radius: 50%;
+    padding: .625rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
     
     
 }
 
-.card-left, .card-right {
-    border: .0625rem solid red; 
+.card-right img {
+    width: 100%;
+    margin: 20px 0 0 0;
 }
 
 /* 
@@ -63,12 +122,12 @@ main-section-2
 main section 3 
 */
 
-.main-sectio-3, ul {
-    display: block;
+.main-section-3, h2, ul {
+   
     list-style: none;
     color: black;
     text-align: center;
-    margin-top: 1.25rem;
+   
     
 }
 
@@ -77,6 +136,8 @@ main section 3
     margin: .625rem .625rem;
 
 }
+
+
 
 
 /* 
@@ -130,4 +191,39 @@ main section 5
     
 }
 
+/* 
+footer 
+*/
 
+.footer-container {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
+
+.footer-top .footer-bottom {
+    
+}
+
+
+.footer-top p {
+    padding: 2.5rem;
+    font-size: 10pt;
+    
+}
+
+.footer-bottom {
+    
+}
+
+.footer-bottom, a span {
+    padding: 2.5rem;
+    font-size: 10pt;
+}
+
+.footer-bottom a {
+    color: #9792E4;
+}
